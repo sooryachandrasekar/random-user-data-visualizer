@@ -1,0 +1,46 @@
+/** @format */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#legend li span {
+  width: 36px;
+  height: 12px;
+  display: inline-block;
+  margin: 0 5px 8px 0;
+  vertical-align: -9.4px;
+}
+#legend ul {
+  list-style: none;
+  font: 12px Verdana;
+  white-space: nowrap;
+}
+
+.filter-label > span {
+  display: none !important;
+}
+
+body {
+  background: url("https://www.compusurf.es/wp-content/uploads/2018/10/background-world-map-1.gif");
+}
+
+table {
+  margin-top: 25px;
+}
+table tbody > tr > td:nth-last-child(-n + 2),
+table thead > tr > th:nth-last-child(-n + 2) {
+  text-align: center !important;
+}
+table th {
+  word-break: break-word;
+}
+table thead > tr:nth-child(odd) > th {
+  background-color: #748091;
+  color: #fff;
+}
+
+.form-control {
+  padding: 1px 12px !important;
+}
